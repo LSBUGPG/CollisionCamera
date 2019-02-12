@@ -52,17 +52,21 @@ This test demonstrates just the [`CollisionSweep`] behaviour. It contains a floo
 
 ### DistanceFadeTest
 
-This test demonstrates just the ['DistanceFade'] behaviour. It contains a blue sphere representing the position of the player and a red sphere representing the position of the camera. To demonstrate, run the scene and move either sphere closer or further away. The blue sphere should fade as the distance between these spheres changes.
+This test demonstrates just the [`DistanceFade`] behaviour. It contains a blue sphere representing the position of the player and a red sphere representing the position of the camera. To demonstrate, run the scene and move either sphere closer or further away. The blue sphere should fade as the distance between these spheres changes.
 
 ### SmoothFollowTest
 
-This test demonstrates just the ['SmoothFollow'] behaviour. It contains a blue sphere representing the target position and a red sphere representing the following object. To demonstrate, run the scene and move or rotate the blue sphere to see the red sphere follow.
+This test demonstrates just the [`SmoothFollow`] behaviour. It contains a blue sphere representing the target position and a red sphere representing the following object. To demonstrate, run the scene and move or rotate the blue sphere to see the red sphere follow.
 
 ### MovementTest
 
 This test demonstrates the movement and rotation scripts used in the [`ThirdPersonCameraTest`] scene. These scripts are included for demonstration purposes only.
 
-
+[`ThirdPersonCameraTest`]: #ThirdPersonCameraTest
+[`CollisionSweepTest`]: #CollisionSweepTest
+[`DistanceFadeTest`]: #DistanceFadeTest
+[`MovementTest`]: #MovementTest
+[`SmoothFollowTest`]: #SmoothFollowTest
 [`CollisionSweep`]: #CollisionSweep
 [`DistanceFade`]: #DistanceFade
 [`SmoothFollow`]: #SmoothFollow
@@ -74,5 +78,3 @@ This test demonstrates the movement and rotation scripts used in the [`ThirdPers
 [`Rigidbody`]: https://docs.unity3d.com/ScriptReference/Rigidbody.html
 [`Rigidbody.SweepTest`]: https://docs.unity3d.com/ScriptReference/Rigidbody.SweepTest.html
 [`Collider`]: https://docs.unity3d.com/ScriptReference/Collider.html
-
-
