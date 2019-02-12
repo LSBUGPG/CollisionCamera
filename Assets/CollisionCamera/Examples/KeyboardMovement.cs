@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KeyboardMovement : MonoBehaviour
 {
-	public float speed = 1.0f;
+	[Tooltip("units per second")] public float speed = 1.0f;
 
 	void Update()
 	{
