@@ -18,14 +18,14 @@ public class CollisionSweep : MonoBehaviour
 
 	void Update()
 	{
-		transform.position = target.position;
-		transform.rotation = target.rotation;
+		physics.position = target.position;
+		physics.rotation = target.rotation;
 		RaycastHit hitInfo;
 		float distance = idealDistance;
-		if (physics.SweepTest(-transform.forward, out hitInfo, idealDistance))
+		if (physics.SweepTest(-physics.transform.forward, out hitInfo, idealDistance))
 		{
 			distance = hitInfo.distance;
 		}
-		transform.Translate(-transform.forward * distance, Space.World);
+		physics.position -= physics.transform.forward * distance;
 	}
 }
