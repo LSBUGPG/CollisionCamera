@@ -40,7 +40,7 @@ The `Examples` folder contains a number of Unity scenes set up for testing the b
 
 This test demonstrates the intended use of the behaviours in this package. It contains blue sphere representing the player and has a floor and two walls. The player is controlled using Unity's horizontal and vertical axis inputs to move and the mouse to rotate.
 
-The player object has the ['DistanceFade'] behaviour attached, with the camera set as its target. It also has an example `FadeMaterial` attached which uses the `StandardMaterial` shader with the `Fade` `RenderingMode`.
+The player object has the [`DistanceFade`] behaviour attached, with the camera set as its target. It also has an example `FadeMaterial` attached which uses the `StandardMaterial` shader with the `Fade` `RenderingMode`.
 
 The `CameraTargetPosition` object is an invisible sphere with a radius slightly smaller than the player. It has the [`CollisionSweep`] behaviour attached.
 
